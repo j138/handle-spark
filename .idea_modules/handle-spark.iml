@@ -103,12 +103,8 @@
     <orderEntry type="library" name="SBT: org.apache.hadoop:hadoop-yarn-server-common:2.2.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.apache.mesos:mesos:0.18.1:shaded-protobuf:jar" level="project" />
     <orderEntry type="library" name="SBT: org.apache.spark:spark-catalyst_2.11:1.2.0:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.apache.spark:spark-core_2.11:1.2.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.apache.spark:spark-mllib_2.11:1.2.0:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.apache.spark:spark-network-common_2.11:1.2.0:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.apache.spark:spark-network-shuffle_2.11:1.2.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.apache.spark:spark-sql_2.11:1.2.0:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.apache.spark:spark-streaming_2.11:1.2.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.apache.zookeeper:zookeeper:3.4.5:jar" level="project" />
     <orderEntry type="library" name="SBT: org.codehaus.jackson:jackson-core-asl:1.9.11:jar" level="project" />
     <orderEntry type="library" name="SBT: org.codehaus.jackson:jackson-jaxrs:1.8.8:jar" level="project" />
@@ -126,10 +122,6 @@
     <orderEntry type="library" name="SBT: org.eclipse.jetty:jetty-util:8.1.14.v20131031:jar" level="project" />
     <orderEntry type="library" name="SBT: org.eclipse.jetty:jetty-webapp:8.1.14.v20131031:jar" level="project" />
     <orderEntry type="library" name="SBT: org.eclipse.jetty:jetty-xml:8.1.14.v20131031:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.eclipse.jetty.orbit:javax.activation:1.1.0.v201105071233:orbit" level="project" />
-    <orderEntry type="library" name="SBT: org.eclipse.jetty.orbit:javax.mail.glassfish:1.4.1.v201005082020:orbit" level="project" />
-    <orderEntry type="library" name="SBT: org.eclipse.jetty.orbit:javax.servlet:3.0.0.v201112011016:orbit" level="project" />
-    <orderEntry type="library" name="SBT: org.eclipse.jetty.orbit:javax.transaction:1.1.1.v201105210645:orbit" level="project" />
     <orderEntry type="library" name="SBT: org.jblas:jblas:1.2.3:jar" level="project" />
     <orderEntry type="library" name="SBT: org.json4s:json4s-ast_2.11:3.2.10:jar" level="project" />
     <orderEntry type="library" name="SBT: org.json4s:json4s-core_2.11:3.2.10:jar" level="project" />
@@ -165,5 +157,17 @@
     <orderEntry type="library" name="SBT: org.xerial.snappy:snappy-java:1.1.1.6:jar" level="project" />
     <orderEntry type="library" name="SBT: stax:stax-api:1.0.1:jar" level="project" />
     <orderEntry type="library" name="SBT: xmlenc:xmlenc:0.52:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.jetty.orbit:javax.activation:1.1.0.v201105071233:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.jetty.orbit:javax.mail.glassfish:1.4.1.v201005082020:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.jetty.orbit:javax.servlet:3.0.0.v201112011016:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.eclipse.jetty.orbit:javax.transaction:1.1.1.v201105210645:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.spark:spark-core_2.11:1.2.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.spark:spark-network-common_2.11:1.2.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.spark:spark-network-shuffle_2.11:1.2.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.spark:spark-streaming-twitter_2.11:1.2.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.spark:spark-streaming_2.11:1.2.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.atilika.kuromoji:kuromoji:0.7.7:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.twitter4j:twitter4j-core:3.0.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.twitter4j:twitter4j-stream:3.0.3:jar" level="project" />
   </component>
 </module>
