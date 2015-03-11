@@ -13,5 +13,9 @@ resolvers ++= Seq(
 
 libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-core" % "1.2.1",
-  "org.apache.spark" %% "spark-mllib"  % "1.2.0"
+  "org.apache.spark" %% "spark-mllib"  % "1.2.1",
+  "org.atilika.kuromoji" % "kuromoji" % "0.7.7",
+  "org.apache.spark" %% "spark-streaming-twitter" % "1.2.1",
+  "org.apache.spark" %% "spark-streaming" % "1.2.1",
+  "org.twitter4j" % "twitter4j-stream" % "3.0.3"
 )

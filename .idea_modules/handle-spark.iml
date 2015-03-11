@@ -102,9 +102,6 @@
     <orderEntry type="library" name="SBT: org.apache.hadoop:hadoop-yarn-common:2.2.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.apache.hadoop:hadoop-yarn-server-common:2.2.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.apache.mesos:mesos:0.18.1:shaded-protobuf:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.apache.spark:spark-catalyst_2.11:1.2.0:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.apache.spark:spark-mllib_2.11:1.2.0:jar" level="project" />
-    <orderEntry type="library" name="SBT: org.apache.spark:spark-sql_2.11:1.2.0:jar" level="project" />
     <orderEntry type="library" name="SBT: org.apache.zookeeper:zookeeper:3.4.5:jar" level="project" />
     <orderEntry type="library" name="SBT: org.codehaus.jackson:jackson-core-asl:1.9.11:jar" level="project" />
     <orderEntry type="library" name="SBT: org.codehaus.jackson:jackson-jaxrs:1.8.8:jar" level="project" />
@@ -169,5 +166,8 @@
     <orderEntry type="library" name="SBT: org.atilika.kuromoji:kuromoji:0.7.7:jar" level="project" />
     <orderEntry type="library" name="SBT: org.twitter4j:twitter4j-core:3.0.3:jar" level="project" />
     <orderEntry type="library" name="SBT: org.twitter4j:twitter4j-stream:3.0.3:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.spark:spark-catalyst_2.11:1.2.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.spark:spark-mllib_2.11:1.2.1:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.apache.spark:spark-sql_2.11:1.2.1:jar" level="project" />
   </component>
 </module>
