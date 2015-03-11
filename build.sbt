@@ -1,5 +1,7 @@
 name := "handle spark"
 
+scalaVersion := "2.11.5"
+
 organization := "jp.co.ca-adv"
 
 version := "1.0"
