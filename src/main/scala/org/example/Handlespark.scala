@@ -9,6 +9,9 @@ import org.apache.spark.streaming.StreamingContext._
 import org.atilika.kuromoji._
 import org.atilika.kuromoji.Tokenizer._
 import java.util.regex._
+import org.elasticsearch.spark._
+import org.elasticsearch.spark.rdd.EsSpark
+
 
 object Handlespark extends App {
   System.setProperty("twitter4j.oauth.consumerKey", "xhTNNX6UZeQaBZvq5RvnAT45z")
@@ -22,7 +25,7 @@ object Handlespark extends App {
 
   val ssc = new StreamingContext(sc, Seconds(60)) // スライド幅60秒
 
-  val words = Array("iphone6", "niconico")
+  val words = Array("iphone6", "nicovideo")
   val stream = TwitterUtils.createStream(ssc, None, words)
 
   // Twitterから取得したツイートを処理する
@@ -66,7 +69,7 @@ object Handlespark extends App {
     val topList = rdd.take(20)
     // コマンドラインに出力
     println("¥ nPopular topics in last 60*60 seconds (%s words):".format(rdd.count()))
-    topList.foreach{case (count, tag) => println("%s (%s tweets)".format(tag, count))}
+    topList.foreach{case (count, tag) => println("%s (%s tweets)".format(taupdag, count))}
   })
 
   // 定義した処理を実行するSpark Streamingを起動！
