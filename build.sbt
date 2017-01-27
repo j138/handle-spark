@@ -2,7 +2,7 @@ name := "handle spark"
 
 scalaVersion := "2.11.5"
 
-organization := "jp.co.ca-adv"
+organization := "com.example"
 
 version := "1.0"
 
